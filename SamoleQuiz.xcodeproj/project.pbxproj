@@ -16,6 +16,8 @@
 		82DD1FBD285BF5A9009A44DB /* SamoleQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD1FBC285BF5A9009A44DB /* SamoleQuizTests.swift */; };
 		82DD1FC7285BF5A9009A44DB /* SamoleQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD1FC6285BF5A9009A44DB /* SamoleQuizUITests.swift */; };
 		82DD1FC9285BF5A9009A44DB /* SamoleQuizUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD1FC8285BF5A9009A44DB /* SamoleQuizUITestsLaunchTests.swift */; };
+		82DD1FD6285BF6DC009A44DB /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD1FD5285BF6DC009A44DB /* QuizViewController.swift */; };
+		82DD1FD8285BF766009A44DB /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD1FD7285BF766009A44DB /* ScoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		82DD1FC2285BF5A9009A44DB /* SamoleQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SamoleQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82DD1FC6285BF5A9009A44DB /* SamoleQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamoleQuizUITests.swift; sourceTree = "<group>"; };
 		82DD1FC8285BF5A9009A44DB /* SamoleQuizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamoleQuizUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		82DD1FD5285BF6DC009A44DB /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		82DD1FD7285BF766009A44DB /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				82DD1FA5285BF5A8009A44DB /* AppDelegate.swift */,
 				82DD1FA7285BF5A8009A44DB /* SceneDelegate.swift */,
 				82DD1FA9285BF5A8009A44DB /* ViewController.swift */,
+				82DD1FD5285BF6DC009A44DB /* QuizViewController.swift */,
+				82DD1FD7285BF766009A44DB /* ScoreViewController.swift */,
 				82DD1FAB285BF5A8009A44DB /* Main.storyboard */,
 				82DD1FAE285BF5A9009A44DB /* Assets.xcassets */,
 				82DD1FB0285BF5A9009A44DB /* LaunchScreen.storyboard */,
@@ -260,7 +266,9 @@
 			files = (
 				82DD1FAA285BF5A8009A44DB /* ViewController.swift in Sources */,
 				82DD1FA6285BF5A8009A44DB /* AppDelegate.swift in Sources */,
+				82DD1FD8285BF766009A44DB /* ScoreViewController.swift in Sources */,
 				82DD1FA8285BF5A8009A44DB /* SceneDelegate.swift in Sources */,
+				82DD1FD6285BF6DC009A44DB /* QuizViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
